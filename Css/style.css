@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+.base {
+    display: flex;
+    width: 100%;
+}
+
+.introducao {
+    width: 100%;
+    height: 100vh;
+}
+
+.introducao img {
+    max-width: 50vw;
+    margin: 45px 56px 56px 56px;
+}
+
+.introducao h1 {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    color: #00A053;
+    position: absolute;
+    width: 442px;
+    height: 61px;
+    left: 132px;
+    top: 440px;
+}
+
+.introducao h2 {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    color: #00A053;
+    position: absolute;
+    width: 442px;
+    height: 61px;
+    left: 132px;
+    top: 400px;
+}
+
+.introducao p {
+    position: absolute;
+    justify-content: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    color: #00A053;
+    position: absolute;
+    width: 312px;
+    height: 184px;
+    left: 182px;
+    top: 550px;
+}
+
+.fomulario_inicio {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(180deg, #FFFFFF 0%, #00A053 68.75%, #00A053 100%);
+}
+
+.fomulario_inicio img {
+    margin-left: 25%;
+}
+
+.fomulario_inicio div {
+    /* topo | direita | inferior | esquerda */
+    margin: 20px auto;
+    border: 5px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 20px;
+    width: 437px;
+}
+
+.fomulario_inicio div h1 {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    color: #ffffff;
+    margin-top: 16px;
+}
+
+.fomulario_inicio div h1::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    background: #ffffff;
+    margin: 10px auto;
+}
+
+.fomulario_inicio div h2 {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+.fomulario_inicio div p {
+    /* topo | direita | inferior | esquerda */
+    margin: 16px auto 20px;
+    width: 248px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+
+.teste {
+    margin: 0px 20% 0px 20%;
+}
+
+.teste label {
+    display: block;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+
+.teste input {
+    /* topo | direita | inferior | esquerda */
+    margin: 8px auto;
+    border: 4px solid #FFFFFF;
+    background: #FFFFFF;
+    color: #000000;
+    font-size: 14px;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 7px 10px;
+    outline: none;
+}
+
+.teste button {
+    /* topo | direita | inferior | esquerda */
+    margin: 20px 25% 20px;
+    padding: 15px 40px;
+    background: none;
+    border-radius: 10px;
+    font-size: 18px;
+    line-height: 24px;
+    border: 2px solid #FFFFFF;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+
+.form_contato {
+    padding-right: 60px;
+}
+
+.form_contato label {
+    display: block;
+    color: #000000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 4px;
+}
+
+.form_contato input {
+    display: block;
+    width: 100%;
+    border: 4px solid #fec63e;
+    background: none;
+    color: #000000;
+    font-size: 14px;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 7px 10px;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+.form_contato button {
+    background: none;
+    padding: 7px 40px;
+}
