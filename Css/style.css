@@ -200,13 +200,11 @@
     width: 520px;
     height: 104px;
     left: 29px;
-    top: 178px;
     font-family: 'Ubuntu', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
     line-height: 30px;
-    /* or 83% */
     display: flex;
     align-items: center;
     text-align: center;
@@ -215,8 +213,6 @@
 }
 
 .texto-base p {
-    width: 344px;
-    height: 448px;
     left: 117px;
     top: 290px;
     font-family: Ubuntu;
@@ -227,7 +223,6 @@
     /* or 214% */
     display: flex;
     align-items: center;
-    text-transform: uppercase;
     color: #00A053;
 }
 
