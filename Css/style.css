@@ -5,13 +5,14 @@
 }
 
 .introducao {
+    display: block;
     width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 .introducao img {
     max-width: 50vw;
-    margin: 45px 56px 56px 56px;
+    margin: 56px 10% 10% 10%;
 }
 
 .introducao h1 {
@@ -23,11 +24,6 @@
     line-height: 30px;
     letter-spacing: 0.01em;
     color: #00A053;
-    position: absolute;
-    width: 442px;
-    height: 61px;
-    left: 132px;
-    top: 440px;
 }
 
 .introducao h2 {
@@ -39,15 +35,10 @@
     line-height: 30px;
     letter-spacing: 0.01em;
     color: #00A053;
-    position: absolute;
-    width: 442px;
-    height: 61px;
-    left: 132px;
-    top: 400px;
 }
 
 .introducao p {
-    position: absolute;
+    margin: 0 auto;
     justify-content: center;
     font-family: 'Ubuntu', sans-serif;
     font-style: normal;
@@ -56,11 +47,7 @@
     line-height: 24px;
     letter-spacing: 0.01em;
     color: #00A053;
-    position: absolute;
     width: 312px;
-    height: 184px;
-    left: 182px;
-    top: 550px;
 }
 
 .fomulario_inicio {
@@ -70,7 +57,8 @@
 }
 
 .fomulario_inicio img {
-    margin-left: 25%;
+    /* topo | direita | inferior | esquerda */
+    margin: 50px 25% 20px 25%;
 }
 
 .fomulario_inicio div {
@@ -201,4 +189,93 @@
 .form_contato button {
     background: none;
     padding: 7px 40px;
+}
+
+.texto-base {
+    display: flex;
+    width: 100%;
+}
+
+.texto-base h1 {
+    width: 520px;
+    height: 104px;
+    left: 29px;
+    top: 178px;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 30px;
+    /* or 83% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #00A053;
+}
+
+.texto-base p {
+    width: 344px;
+    height: 448px;
+    left: 117px;
+    top: 290px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 30px;
+    /* or 214% */
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #00A053;
+}
+
+.quadrado {
+    margin: 50px auto;
+    width: 528px;
+    height: 96px;
+    left: 456px;
+    top: 64px;
+}
+
+.quadrado h1 {
+    height: 96px;
+    width: 100%;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 30px;
+    /* or 83% */
+    text-transform: uppercase;
+    color: #00A053;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+
+/* .quadrado h1::after {
+    content: "";
+    display: block;
+    width: 50%;
+    height: 3px;
+    background: #00A053;
+    margin: 10% auto;
+} */
+
+.descritivo {
+    padding: 0px 20px 0px 20px;
+}
+
+.ilustracao {
+    margin-top: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 50%;
+}
+
+.ilustracao img {
+    width: 340px;
+    height: 297px;
 }
