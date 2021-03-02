@@ -273,3 +273,116 @@
     width: 340px;
     height: 297px;
 }
+
+.Depoimentos {
+    margin-top: 100px;
+    width: 100vw;
+}
+
+.Depoimentos h1 {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 30px;
+    color: #00A053;
+}
+
+.Depoimentos h1::after {
+    content: "";
+    display: block;
+    width: 150px;
+    height: 3px;
+    background: #00A053;
+    margin: 15px auto;
+}
+
+.video-container {
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.Rodape {
+    display: flex;
+    width: 100vw;
+    height: 100px;
+    background: #00A053;
+}
+
+.Rodape img {
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.contato {
+    width: 70px;
+    height: 70px;
+    background: #ffffff8f;
+}
+
+.Rodape ul li {
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+
+.footer {
+    width: 100%;
+    background: #00A053;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+.footer h3 {
+    font-size: 18px;
+    line-height: 25px;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-weight: bold;
+}
+
+.footer h3:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #ffffff;
+    margin: 6px 0 10px 0;
+}
+
+.footer_historia {
+    padding-right: 40px;
+}
+
+.footer_contato ul li {
+    font-size: 14px;
+    line-height: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.footer_redessociais ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer_redessociais ul li a {
+    border: 3px solid #ffffff;
+    display: block;
+    padding: 10px;
+}
+
+.footer_redessociais ul li a:hover {
+    border-color: #ffffff;
+}
+
+.copy {
+    width: 100%;
+    background: #00A053;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px 0;
+}
