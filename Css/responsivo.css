@@ -53,94 +53,171 @@
 /*Estilo para SmartPhone*/
 
 @media only screen and (max-width: 787px) {
-    .header {
-        position: relative;
-    }
-    .header img {
-        margin: 0 auto 10px auto;
-    }
-    .header_menu {
-        text-align: center;
-    }
-    .header_menu ul li {
-        margin: 5px;
-    }
-    .header_menu ul li a {
-        border: 4px solid #000;
-        width: 136px;
+    .base {
         display: block;
-        float: left;
     }
-    .header_menu ul li a:hover {
-        border-color: #fff;
+    .introducao img {
+        margin: 75px 200px 75px 200px;
     }
-    .header_menu ul li a.menu_ativo {
-        border-color: #ffffff;
+    .introducao p {
+        margin: 20px auto;
     }
-    .introducao {
-        padding-top: 20px;
-        margin-top: 0;
+    .fomulario_inicio div {
+        margin: 20px auto;
+        border: none;
     }
-    .introducao_interna {
-        margin-top: 0;
+    .fomulario_inicio img {
+        /* topo | direita | inferior | esquerda */
+        /* margin: 75px 200px 75px 200px; */
     }
-    .missao_sobre p {
-        font-size: 14px;
-        line-height: 20px;
-        padding-right: 0px;
+    .fomulario_inicio div {
+        /* topo | direita | inferior | esquerda */
+        /* margin: 10px auto;
+        border: none; */
     }
-    .missao_sobre ul li {
-        font-size: 14px;
-        line-height: 20px;
-        padding-right: 0px;
-    }
-    .foto_equipe {
-        padding-top: 20px;
-    }
-    .qualidade:after {
-        background: none;
-    }
-    .contato_dados ul li {
-        padding: 6px;
-    }
-    .contato_mapa iframe {
-        width: 300px;
-        height: 300px;
-    }
-    .cta {
-        padding: 10px;
-    }
-    .introducao h1 {
-        font-size: 36px;
-        color: #ffffff;
+    .fomulario_inicio div h1 {
+        /* text-align: center;
+        font-family: 'Ubuntu', sans-serif;
+        font-style: normal;
         font-weight: bold;
-        text-transform: uppercase;
+        font-size: 36px;
+        line-height: 30px;
+        letter-spacing: 0.01em;
+        color: #ffffff;
+        margin-top: 8px; */
     }
-    .produto_item h2 {
-        top: -100px;
+    .fomulario_inicio div h1::after {
+        /* content: "";
+        display: block;
+        width: 100px;
+        height: 3px;
+        background: #ffffff;
+        margin: 10px auto; */
+    }
+    .fomulario_inicio div h2 {
+        /* text-align: center;
+        font-family: 'Ubuntu', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 30px;
+        letter-spacing: 0.01em;
+        color: #ffffff;
+        margin-top: 20px; */
+    }
+    .fomulario_inicio div p {
+        /* topo | direita | inferior | esquerda */
+        /* margin: 16px auto 20px;
+        width: 248px;
+        font-family: Ubuntu;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.01em;
+        color: #FFFFFF; */
+    }
+    .teste {
+        margin: 0px 0px 0px 22%;
+    }
+    .teste label {
+        /* display: block;
+        font-family: 'Ubuntu', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 24px;
+        
+        letter-spacing: 0.01em;
+        color: #FFFFFF; */
+    }
+    .teste input {
+        /* topo | direita | inferior | esquerda */
+        /* margin: 8px auto;
+        border: 4px solid #FFFFFF;
+        background: #FFFFFF;
+        color: #000000;
+        font-size: 14px;
+        font-family: 'Ubuntu', sans-serif;
+        padding: 7px 10px;
+        outline: none; */
+    }
+    .teste button {
+        margin: 20px auto;
+        width: 210px;
+        padding: 15px 40px;
+        background: none;
+        border-radius: 10px;
+        font-size: 18px;
+        line-height: 24px;
+        border: 2px solid #FFFFFF;
+        font-family: 'Ubuntu', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        letter-spacing: 0.01em;
+        color: #FFFFFF;
+    }
+    .texto-base {
+        /* display: block; */
+    }
+    .texto-base h1 {
+        /* width: 520px;
+        height: 104px;
+        left: 29px;
+        font-family: 'Ubuntu', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 30px;
+        align-items: center;
         text-align: center;
-        margin-bottom: -68px;
+        text-transform: uppercase;
+        color: #00A053; */
     }
-    .produto_icone {
-        padding: 41px 0;
-    }
-    .produto_info p {
+    .texto-base p {
+        /* left: 117px;
+        top: 290px;
+        font-family: Ubuntu;
+        font-style: normal;
+        font-weight: bold;
         font-size: 14px;
-        line-height: 20px;
-        height: auto;
-        padding: 20px 30px;
+        line-height: 30px;
+        display: flex;
+        align-items: center;
+        color: #00A053; */
     }
-    .produto_info ul li {
-        width: 149px;
-        height: 49px;
+    .quadrado {
+        visibility: hidden;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .quadrado h1 {
+        font-size: 24px;
+        line-height: 24px;
+    }
+    .texto-base {
+        width: 100%;
+        display: block;
+    }
+    /* .quadrado h1::after {
+    content: "";
+    display: block;
+    width: 50%;
+    height: 3px;
+    background: #00A053;
+    margin: 10% auto;
+} */
+    .descritivo {
+        margin: 0 auto;
+    }
+    .descritivo p {
         font-size: 14px;
-        line-height: 20px;
-        padding-top: 16px;
     }
-    .form_contato {
-        padding-right: 0px;
+    .ilustracao {
+        margin: 0 auto;
     }
-    .orcamento_dados ul {
-        padding: 0px;
+    .ilustracao img {
+        /* width: 340px;
+        height: 297px; */
     }
 }
