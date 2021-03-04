@@ -53,7 +53,7 @@
 /*Estilo para SmartPhone*/
 
 @media only screen and (max-width: 787px) {
-    .base {
+    .Inicio {
         display: block;
     }
     .introducao img {
@@ -66,81 +66,15 @@
         margin: 20px auto;
         border: none;
     }
-    .fomulario_inicio img {
-        /* topo | direita | inferior | esquerda */
-        /* margin: 75px 200px 75px 200px; */
-    }
-    .fomulario_inicio div {
-        /* topo | direita | inferior | esquerda */
-        /* margin: 10px auto;
-        border: none; */
-    }
-    .fomulario_inicio div h1 {
-        /* text-align: center;
-        font-family: 'Ubuntu', sans-serif;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 36px;
-        line-height: 30px;
-        letter-spacing: 0.01em;
-        color: #ffffff;
-        margin-top: 8px; */
-    }
-    .fomulario_inicio div h1::after {
-        /* content: "";
-        display: block;
-        width: 100px;
-        height: 3px;
-        background: #ffffff;
-        margin: 10px auto; */
-    }
-    .fomulario_inicio div h2 {
-        /* text-align: center;
-        font-family: 'Ubuntu', sans-serif;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 36px;
-        line-height: 30px;
-        letter-spacing: 0.01em;
-        color: #ffffff;
-        margin-top: 20px; */
-    }
-    .fomulario_inicio div p {
-        /* topo | direita | inferior | esquerda */
-        /* margin: 16px auto 20px;
-        width: 248px;
-        font-family: Ubuntu;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 14px;
-        line-height: 24px;
-        letter-spacing: 0.01em;
-        color: #FFFFFF; */
-    }
     .teste {
         margin: 0px 0px 0px 22%;
     }
-    .teste label {
-        /* display: block;
-        font-family: 'Ubuntu', sans-serif;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 14px;
-        line-height: 24px;
-        
-        letter-spacing: 0.01em;
-        color: #FFFFFF; */
-    }
-    .teste input {
+    .fomulario_inicio div {
         /* topo | direita | inferior | esquerda */
-        /* margin: 8px auto;
-        border: 4px solid #FFFFFF;
-        background: #FFFFFF;
-        color: #000000;
-        font-size: 14px;
-        font-family: 'Ubuntu', sans-serif;
-        padding: 7px 10px;
-        outline: none; */
+        margin: 10px auto;
+    }
+    .ilustracao {
+        margin-bottom: 10%;
     }
     .teste button {
         margin: 20px auto;
@@ -157,35 +91,6 @@
         letter-spacing: 0.01em;
         color: #FFFFFF;
     }
-    .texto-base {
-        /* display: block; */
-    }
-    .texto-base h1 {
-        /* width: 520px;
-        height: 104px;
-        left: 29px;
-        font-family: 'Ubuntu', sans-serif;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 36px;
-        line-height: 30px;
-        align-items: center;
-        text-align: center;
-        text-transform: uppercase;
-        color: #00A053; */
-    }
-    .texto-base p {
-        /* left: 117px;
-        top: 290px;
-        font-family: Ubuntu;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 14px;
-        line-height: 30px;
-        display: flex;
-        align-items: center;
-        color: #00A053; */
-    }
     .quadrado {
         visibility: hidden;
         margin: 0 auto;
@@ -199,15 +104,7 @@
         width: 100%;
         display: block;
     }
-    /* .quadrado h1::after {
-    content: "";
-    display: block;
-    width: 50%;
-    height: 3px;
-    background: #00A053;
-    margin: 10% auto;
-} */
-    .descritivo {
+    .Depoimentos {
         margin: 0 auto;
     }
     .descritivo p {
