@@ -105,16 +105,21 @@
         display: block;
     }
     .Depoimentos {
-        margin: 0 auto;
+        height: 100%;
+        margin-top: 150px;
+    }
+    .video-container {
+        padding-bottom: 50px;
+        margin-bottom: 0px;
+    }
+    .Depoimentos img {
+        padding-bottom: 150px;
     }
     .descritivo p {
+        margin-bottom: 100px;
         font-size: 14px;
     }
     .ilustracao {
-        margin: 0 auto;
-    }
-    .ilustracao img {
-        /* width: 340px;
-        height: 297px; */
+        visibility: hidden;
     }
 }
